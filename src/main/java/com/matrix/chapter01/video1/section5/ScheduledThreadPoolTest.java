@@ -50,5 +50,6 @@ public class ScheduledThreadPoolTest {
                 System.out.println("------------------------");
             },3,1,TimeUnit.SECONDS);
         }
+        pool.shutdown();
     }
 }

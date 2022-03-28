@@ -18,5 +18,6 @@ public class SingleThreadScheduledExecutorTest {
                 System.out.println("------------------------");
             }, 3, TimeUnit.SECONDS);
         }
+        pool.shutdown();
     }
 }
