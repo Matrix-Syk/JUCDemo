@@ -19,7 +19,7 @@ public class WorkStealingPoolTest {
             pool.submit(()->{
                 System.out.println(Thread.currentThread().getName() + " is running");
             });
-        }
+        };
         // 主线程睡眠三秒,等待子线程行完毕
         Thread.sleep(3);
         // 释放资源
